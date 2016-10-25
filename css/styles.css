@@ -3,6 +3,19 @@
     width: 100%;
 }
 
+#footer {
+    background-color: pink;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+
+.footer-contact {
+    display: inline;
+}
+
 .page_content {
     width: 80%;
     margin: 0 auto;
@@ -11,11 +24,15 @@
 .text_block {
     width: 80%;
     margin: 0 auto;
+    margin-top: 130px;
+    padding-bottom: 200px;
 }
 
 body {
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
+    position: relative;
 }
 
 a:link, a:visited {
@@ -42,10 +59,10 @@ a:link, a:visited {
 .dropdown {
     position: fixed;
     right: 0;
-    padding-right: 12%;
-    width: 50px;
-    
+    width: 50px; 
+    padding-right: 15%;
 }
+    
 
 .dropdown-content {
     display: none;
@@ -65,17 +82,6 @@ a:link, a:visited {
  
 .show {
     display: block;
-}
-
-.content {
-    width: 100%;
-    height: 35%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: auto;
-    display:inline-block;
-    
-   
 }
 
 .about {
@@ -131,12 +137,6 @@ a:link, a:visited {
 }
 
  
-#footer {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-}
 
  
 
